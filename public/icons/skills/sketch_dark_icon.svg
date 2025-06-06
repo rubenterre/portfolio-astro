@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 35 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fdb300;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #ea6c00;
+      }
+
+      .cls-3 {
+        fill: #fdd231;
+      }
+
+      .cls-4 {
+        fill: #fdad00;
+      }
+
+      .cls-5 {
+        fill: #feeeb7;
+      }
+    </style>
+  </defs>
+  <g id="Page-1">
+    <g id="sketch-symbol">
+      <polygon id="Path" class="cls-1" points="7.8 1.7 17.5 .7 27.2 1.7 34.7 11.8 17.5 31.8 .3 11.8 7.8 1.7"/>
+      <g id="Group">
+        <polygon id="Path-2" data-name="Path" class="cls-2" points="7.2 11.8 17.5 31.8 .3 11.8 7.2 11.8"/>
+        <polygon id="Path-3" data-name="Path" class="cls-2" points="27.7 11.8 17.5 31.8 34.7 11.8 27.7 11.8"/>
+        <polygon id="Path-4" data-name="Path" class="cls-4" points="7.2 11.8 27.7 11.8 17.5 31.8 7.2 11.8"/>
+      </g>
+      <g id="Group-2" data-name="Group">
+        <polygon id="Path-5" data-name="Path" class="cls-3" points="17.5 .7 7.8 1.7 7.2 11.8 17.5 .7"/>
+        <polygon id="Path-6" data-name="Path" class="cls-3" points="17.5 .7 27.2 1.7 27.7 11.8 17.5 .7"/>
+        <polygon id="Path-7" data-name="Path" class="cls-4" points="34.7 11.8 27.2 1.7 27.7 11.8 34.7 11.8"/>
+        <polygon id="Path-8" data-name="Path" class="cls-4" points=".3 11.8 7.8 1.7 7.2 11.8 .3 11.8"/>
+        <polygon id="Path-9" data-name="Path" class="cls-5" points="17.5 .7 7.2 11.8 27.7 11.8 17.5 .7"/>
+      </g>
+    </g>
+  </g>
+</svg>

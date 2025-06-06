@@ -1,0 +1,24 @@
+[
+  {
+    "banner": "images/Libro_destino_viquingo.webp",
+    "name": "Destino Viquingo libro",
+    "description": "Maquetación y autoría del libro",
+    "url": "https://destinoviquingo.rubenterre.com",
+    "technologies": [
+      { "icon": "icons/technologies/indesign_icon_white.svg", "name": "InDesign" },
+      { "icon": "icons/technologies/photoshop_icon_white.svg", "name": "Photoshop" },
+      { "icon": "icons/technologies/illustrator_icon_white.svg", "name": "Illustrator" }
+    ]
+  },
+  {
+    "banner": "images/MuseoPoboGalego_Concept.webp",
+    "name": "Museo Pobo Galego",
+    "description": "Concept da páxina web do Museo do Pobo Galego",
+    "url": "https://www.behance.net/gallery/92767455/Museo-do-Pobo-Galego-Web-Design-Concept",
+    "technologies": [
+      { "icon": "icons/technologies/sketch_icon_white.svg", "name": "InDesign" },
+      { "icon": "icons/technologies/photoshop_icon_white.svg", "name": "Photoshop" },
+      { "icon": "icons/technologies/illustrator_icon_white.svg", "name": "Illustrator" }
+    ]
+  }
+]

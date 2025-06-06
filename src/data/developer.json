@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "/icons/skills/html5_icon.svg",
+    "name": "HTML"
+  },
+  {
+    "icon": "/icons/skills/css_icon.svg",
+    "name": "CSS"
+  },
+  {
+    "icon": "/icons/skills/javascript_icon.svg",
+    "name": "JavaScript"
+  },
+  {
+    "icon": "/icons/skills/sass_icon.svg",
+    "name": "SASS"
+  },
+  {
+    "icon": "/icons/skills/svelte_icon.svg",
+    "name": "Svelte"
+  },
+  {
+    "icon": "/icons/skills/vite_icon.svg",
+    "name": "ViteJS"
+  },
+  {
+    "icon": "/icons/skills/bootstrap_icon.svg",
+    "name": "Bootstrap"
+  },
+  {
+    "icon": "/icons/skills/firebase_icon.svg",
+    "name": "Firebase"
+  },
+  {
+    "icon": "/icons/skills/wordpress_icon.svg",
+    "name": "Wordpress"
+  },
+  {
+    "icon": "/icons/skills/github_icon.svg",
+    "name": "GitHub"
+  }
+]

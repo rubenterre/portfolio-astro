@@ -1,0 +1,157 @@
+<section class="header">
+    <nav class="header__nav hide-on-med-and-down">
+        <div class="row">
+            <div class="col s3">
+                <div class="header__logo">
+                    <img src="Ruben_Terre_Logo_blanco.svg" alt="Logo de Rubén Terré" class="header__img">
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="header__menu">
+                    <ul class="header__ul">
+                        <li class="header__li"><a class="header__a header__a--home" href="#home">Inicio</a></li>
+                        <li class="header__li"><a class="header__a" href="#about">Sobre mí</a></li>
+                        <li class="header__li"><a class="header__a" href="#resume">Trayectoria</a></li>
+                        <li class="header__li"><a class="header__a" href="#portfolio">Portfolio</a></li>
+                        <li class="header__li header__li--contact"><a class="header__a header__a--contact" href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="header__socials">
+                    <div class="header__social">
+                        <a href="https://www.youtube.com/@rubenterre"><img src="icons/social/youtube.avif" alt="Perfil de YouTube de Rubén Terré"></a>
+                    </div>
+                    <div class="header__social">
+                        <a href="https://www.linkedin.com/in/rubenterrelameiro"><img src="icons/social/linkedin.avif" alt="Perfil de linkedin de Rubén Terré"></a>
+                    </div>
+                    <div class="header__social">
+                        <a href="https://www.behance.net/rubenterre"><img src="icons/social/behance.avif" alt="Perfil de behance de Rubén Terré"></a>
+                    </div>
+                    <div class="header__social">
+                        <a href="https://github.com/rubenterre"><img src="icons/social/github.avif" alt="Perfil de github de Rubén Terré"></a>
+                    </div>
+                    <div class="header__social">
+                        <a href="https://www.instagram.com/rubenterre.studiodesign/"><img src="icons/social/instagram.avif" alt="Perfil de instagram de Rubén Terré"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="header__nav--mobile hide-on-large-only">
+        <div class="row">
+            <div class="col s12">
+                <div class="header__logo">
+                    <img src="Ruben_Terre_Logo_blanco.svg" alt="Logo de Rubén Terré" class="header__img">
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="header__menu">
+                    <ul class="header__ul">
+                        <li class="header__li"><a class="header__a" href="#home">Inicio</a></li>
+                       <!--  <li class="header__li"><a class="header__a" href="#about">Sobre mí</a></li> -->
+                        <li class="header__li"><a class="header__a" href="#resume">Trayectoria</a></li>
+                        <li class="header__li"><a class="header__a" href="#portfolio">Portfolio</a></li>
+                        <li class="header__li header__li--contact"><a class="header__a header__a--contact" href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="header__socials">
+                    <div class="header__social">
+                        <a href="https://www.youtube.com/@rubenterre"><img src="icons/social/youtube.avif" alt="Perfil de YouTube de Rubén Terré"></a>
+                    </div>
+                    <div class="header__social">
+                        <a target="_blank" href="https://www.linkedin.com/in/rubenterrelameiro"><img src="icons/social/linkedin.avif" alt="Perfil de linkedin de Rubén Terré"></a>
+                    </div>
+                    <div class="header__social">
+                        <a target="_blank" href="https://www.behance.net/rubenterre"><img src="icons/social/behance.avif" alt="Perfil de behance de Rubén Terré"></a>
+                    </div>
+                    <div class="header__social">
+                        <a target="_blank" href="https://github.com/rubenterre"><img src="icons/social/github.avif" alt="Perfil de github de Rubén Terré"></a>
+                    </div>
+                    <div class="header__social">
+                        <a target="_blank" href="https://www.instagram.com/rubenterre.studiodesign/"><img src="icons/social/instagram.avif" alt="Perfil de instagram de Rubén Terré"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<style lang="scss">
+
+@import "../styles/global.scss";
+
+// Header
+
+.header{
+  position: fixed;
+  width: 100vw;
+  top: 0px;
+  background-color: $color-background;
+
+}
+
+.header__nav{
+  background-color: $color-background;
+  margin-top: 15px;
+}
+
+.header__logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+}
+
+.header__img{
+  width: 120px;
+}
+
+.header__menu{
+  background-color: $color-third;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.header__li{
+  margin: 0px 10px;
+}
+
+.header__a{
+  color: white;
+  padding: 10px 0px;
+  border-bottom: 2px solid $color-third;
+  text-decoration: none;
+}
+
+.header__a:hover{
+  border-bottom: 2px solid white;
+}
+
+.header__a--home{
+  border-bottom: 2px solid $color-secundary;
+}
+
+.header__socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+}
+
+.header__social{
+  padding: 0px 10px;
+}
+
+</style>

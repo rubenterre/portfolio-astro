@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="53px" viewBox="0 0 35 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>figma</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="onepage_desktop" transform="translate(-510, -1846)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="HABILIDADES" transform="translate(249, 1248)">
+                <g id="card__habilidades-copy-9" transform="translate(241, 585)">
+                    <g id="figma" transform="translate(20, 13)">
+                        <path d="M8.74996719,52.5 C13.5799612,52.5 17.5,48.5799612 17.5,43.7499672 L17.5,35 L8.74996719,35 C3.91999291,35 0,38.9199732 0,43.7499672 C0,48.5799612 3.91999291,52.5 8.74996719,52.5 Z" id="Path"></path>
+                        <path d="M0,26.2499672 C0,21.4199732 3.91999291,17.5 8.74996719,17.5 L17.5,17.5 L17.5,35 L8.74996719,35 C3.91999291,35 0,31.0799612 0,26.2499672 Z" id="Path"></path>
+                        <path d="M0,8.74996719 C0,3.91999291 3.91999291,0 8.74996719,0 L17.5,0 L17.5,17.5 L8.74996719,17.5 C3.91999291,17.5 0,13.5799612 0,8.74996719 Z" id="Path"></path>
+                        <path d="M17.5,0 L26.2500328,0 C31.0800268,0 35,3.91999291 35,8.74996719 C35,13.5799612 31.0800268,17.5 26.2500328,17.5 L17.5,17.5 L17.5,0 Z" id="Path"></path>
+                        <path d="M35,26.2499672 C35,31.0799612 31.0800268,35 26.2500328,35 C21.4200388,35 17.5,31.0799612 17.5,26.2499672 C17.5,21.4199732 21.4200388,17.5 26.2500328,17.5 C31.0800268,17.5 35,21.4199732 35,26.2499672 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

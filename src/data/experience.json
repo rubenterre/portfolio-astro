@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "/icons/logos/forga_white.svg",
+    "width": "60px",
+    "name": "FORGA Santiago",
+    "profession": "Profesor titular",
+    "date": "2025",
+    "description": "Docencia de certificado de profesionalidad de desarrollo web (IFCD0110)"
+  },
+  {
+    "icon": "/icons/logos/gri_logo.svg",
+    "width": "60px",
+    "name": "Gabinete de recolocación industrial",
+    "profession": "Profesor titular",
+    "date": "2024",
+    "description": "Docencia de cursos relacionados con el desarrollo web y contenidos digitales"
+  },
+  {
+    "icon": "/icons/logos/ap-logo-blanco-medium-1.svg",
+    "width": "60px",
+    "name": "Grupo Academia Postal",
+    "profession": "Profesor titular",
+    "date": "2023-2024",
+    "description": "Docencia de certificados de profesionalidad relacionados con desarrollo web y IT de sistemas microinformáticos."
+  },
+  {
+    "icon": "/icons/logos/ADM-500x133_blanco.svg",
+    "width": "100px",
+    "name": "ADM Comunicaciones",
+    "profession": "Desarrollador & diseñador",
+    "date": "2018-2019",
+    "description": "Diseñador gráfico y maquetador web. Creación de web de empresa y papelería publicitaria y corporativa."
+  },
+  {
+    "icon": "/icons/logos/INVBIT_LOGOTIPO.svg",
+    "width": "50px",
+    "name": "INVBIT",
+    "profession": "Diseñador gráfico & maquetador",
+    "date": "2017 - 2018",
+    "description": "Diseñador gráfico y maquetador web. Creación de páginas web y e-commerce (Wordpress...)."
+  }
+]

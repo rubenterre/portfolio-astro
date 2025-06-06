@@ -1,0 +1,26 @@
+[
+        {
+            "icon": "icons/skills/indesign_icon.svg",
+            "name": "InDesign"
+        },
+        {
+            "icon": "icons/skills/photoshop_icon.svg",
+            "name": "Photoshop"
+        },
+        {
+            "icon": "icons/skills/illustrator_icon.svg",
+            "name": "Illustrator"
+        },
+        {
+            "icon": "icons/skills/after-effects_icon.svg",
+            "name": "After Effects"
+        },
+        {
+            "icon": "icons/skills/sketch_dark_icon.svg",
+            "name": "Sketch"
+        },
+        {
+            "icon": "icons/skills/figma_icon.svg",
+            "name": "Figma"
+        }
+    ]

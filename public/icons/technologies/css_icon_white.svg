@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="77px" viewBox="0 0 68 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>css-icon</title>
+    <g id="css-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Path" fill="#FFFFFF" fill-rule="nonzero" points="6.18181818 69.1796875 0 0 68 0 61.8181818 69.1796875 33.924612 77"></polyline>
+        <polyline id="Path" fill="#FFFFFF" fill-rule="nonzero" points="33 71 55.673913 64.7793103 61 5 33 5"></polyline>
+        <path d="M34,32.1 L13.5492958,32.1 L14.3239437,40.65 L34,40.65 L34,32.1 Z M34,15 L12,15 L12.7746479,23.4 L34,23.4 L34,15 Z M34,54.15 L14.7887324,49.2 L15.8732394,58.2 L34,63 L34,54.15 Z" id="Shape" fill="#2D2F33" fill-rule="nonzero"></path>
+        <polygon id="Path" fill="#2D2F33" fill-rule="nonzero" points="34 40.65 44.2765957 40.65 43.2340426 51.6 34 54.15 34 63 51.1276596 58.2 55 15 34 15 34 23.4 45.9148936 23.4 45.0212766 32.1 34 32.1"></polygon>
+    </g>
+</svg>

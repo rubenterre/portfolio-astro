@@ -1,0 +1,35 @@
+[
+  {
+    "banner": "images/destino_viquingo_web.webp",
+    "name": "Destino Viquingo web",
+    "description": "Página web del libro Destino Viquingo.",
+    "url": "https://destinoviquingo.rubenterre.com",
+    "urlcode": "https://github.com/rubenterre/DestinoViquingoWeb",
+    "technologies": [
+      { "icon": "icons/technologies/html5_icon_white.svg", "name": "HTML" },
+      { "icon": "icons/technologies/css_icon_white.svg", "name": "CSS" },
+      { "icon": "icons/technologies/javascript_icon_white.svg", "name": "JavaScript" },
+      { "icon": "icons/technologies/sketch_icon_white.svg", "name": "Sketch" }
+    ]
+  },
+  {
+    "banner": "images/ADM_Comunicaciones_web.webp",
+    "name": "ADM Comunicaciones",
+    "description": "Página web corporativa y tienda online.",
+    "url": "https://admcomunicaciones.com/",
+    "technologies": [
+      { "icon": "icons/technologies/wordpress_icon_white.svg", "name": "Wordpress" }
+    ]
+  },
+  {
+    "banner": "images/GaliciaWeather_app.webp",
+    "name": "GaliciaWeather App",
+    "description": "App del tiempo con ilustraciones dinámicas",
+    "url": "https://www.behance.net/gallery/155847275/Galicia-Weather-App",
+    "urlcode": "",
+    "technologies": [
+      { "icon": "icons/technologies/svelte_icon_white.svg", "name": "Svelte" },
+      { "icon": "icons/technologies/sketch_icon_white.svg", "name": "Sketch" }
+    ]
+  }
+]

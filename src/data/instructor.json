@@ -1,0 +1,6 @@
+[
+  { "icon": "icons/skills/prezi_icon.svg", "name": "Prezi" },
+  { "icon": "icons/skills/quizizz_icon.svg", "name": "Quizizz" },
+  { "icon": "icons/skills/moodle_icon.svg", "name": "Moodle" },
+  { "icon": "icons/skills/classroom_icon.svg", "name": "Classroom" }
+]
