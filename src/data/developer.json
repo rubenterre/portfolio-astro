@@ -19,6 +19,10 @@
     "icon": "/icons/skills/svelte_icon.svg",
     "name": "Svelte"
   },
+    {
+    "icon": "/icons/skills/astro_icon.svg",
+    "name": "Astro"
+  },
   {
     "icon": "/icons/skills/vite_icon.svg",
     "name": "ViteJS"

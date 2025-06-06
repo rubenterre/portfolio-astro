@@ -31,9 +31,6 @@
                     <div class="header__social">
                         <a href="https://github.com/rubenterre"><img src="icons/social/github.avif" alt="Perfil de github de Rubén Terré"></a>
                     </div>
-                    <div class="header__social">
-                        <a href="https://www.instagram.com/rubenterre.studiodesign/"><img src="icons/social/instagram.avif" alt="Perfil de instagram de Rubén Terré"></a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -71,9 +68,6 @@
                     <div class="header__social">
                         <a target="_blank" href="https://github.com/rubenterre"><img src="icons/social/github.avif" alt="Perfil de github de Rubén Terré"></a>
                     </div>
-                    <div class="header__social">
-                        <a target="_blank" href="https://www.instagram.com/rubenterre.studiodesign/"><img src="icons/social/instagram.avif" alt="Perfil de instagram de Rubén Terré"></a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -91,7 +85,7 @@
   width: 100vw;
   top: 0px;
   background-color: $color-background;
-
+  z-index: 999;
 }
 
 .header__nav{
@@ -152,6 +146,12 @@
 
 .header__social{
   padding: 0px 10px;
+}
+
+.header__social img{
+    width: 38px;
+    border-bottom: 2px solid $color-secundary;;
+    padding: 8px;
 }
 
 </style>

@@ -66,3 +66,46 @@ let videos = [];
         <hr class="main__hr" />
     </div>
 </section>
+
+
+<style lang="scss">
+
+@import "../styles/global.scss";
+@import "../styles/materialize.scss";
+
+// Youtube
+
+.youtube{
+  margin-bottom: 40px;
+}
+.youtube__logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.youtube__picture{
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  border: 1px solid $color-hr;
+  border-radius: 8px;
+}
+
+.youtube__thumbnail{
+  overflow: hidden;
+  transition: all .1s linear;
+  pointer-events: none;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.youtube__picture:hover{
+  border: 1px solid $color-secundary;
+}
+
+
+</style>

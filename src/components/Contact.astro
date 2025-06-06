@@ -1,0 +1,140 @@
+
+<section class="contact" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<div class="main__pills">
+					<div class="main__pill">
+						<img
+							class="main__img"
+							src="icons/sections/contact_icon.svg"
+							alt="Icono del apartado de contacto"
+						/>
+						<p class="main__tit">Contacto</p>
+					</div>
+				</div>
+
+				<h2 class="main__h2">
+					¡Estamos en <span class="main__span">contacto</span>!
+				</h2>
+				<div class="contact__buttons">
+					<a href="mailto:info@rubenterre.com" class="contact__button">
+						<div class="contact__img">
+							<img src="icons/email_icon.svg" alt="" height="50px" class="contact__icon" />
+						</div>
+						<p class="contact__label">Email</p>
+						<p class="contact__p">info[arroba]rubenterre.com</p>
+					</a>
+
+					<a target="_blank" href="https://maps.app.goo.gl/LCEdfnkkvvrVwUEW7" class="contact__button">
+						<div class="contact__img">
+							<img src="icons/location_icon.svg" alt="" height="50px" class="contact__icon" />
+						</div>
+						<p class="contact__label">Localización</p>
+						<p class="contact__p">Santiago de Compostela</p>
+					</a>
+				</div>
+				<div class="contact__socials">
+					<h2 class="main__h2 contact__h2">
+						No dudes en ponerte en contacto para consultas o colaboraciones. Puedes encontrar más de
+						mi trabajo y actualizaciones en mis <span class="main__span">redes sociales.</span>
+					</h2>
+					<div class="contact__hub">
+						<a target="_blank" href="https://www.youtube.com/@rubenterre" class="contact__social">
+							<img src="icons/box_icons/youtube_box.svg" alt="Enlace a perfil de YouTube" />
+						</a>
+						<a target="_blank" href="https://www.linkedin.com/in/rubenterrelameiro" class="contact__social">
+							<img src="icons/box_icons/linkedin_box.svg" alt="Enlace a perfil de Linkedin" />
+						</a>
+						<a target="_blank" href="https://www.behance.net/rubenterre" class="contact__social">
+							<img src="icons/box_icons/behance_box.svg" alt="Enlace a perfil de Behance" />
+						</a>
+						<a target="_blank" href="https://github.com/rubenterre" class="contact__social">
+							<img src="icons/box_icons/github_box.svg" alt="Enlace a perfil de Github" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style lang="scss">
+
+	@import "../styles/global.scss";
+	@import "../styles/materialize.scss";
+
+// Contact
+
+.contact__buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact__button{
+  border: 1px solid $color-hr;
+  border-radius: 8px;
+  background-color: $color-third;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 45%;
+  padding: 10px;
+  @include hover-effect()
+}
+
+
+.contact__img{
+  display: flex;
+  place-content: center;
+  padding: 10px;
+}
+
+.contact__label{
+  font-family: $font-primary;
+  color: $color-hr;
+  font-size: 1.1rem;
+  margin: 10px 0px;
+}
+
+.contact__p{
+  font-family: $font-primary;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact__h2{
+  font-size: 1.3rem;
+}
+
+.contact__hub{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact__social{
+  display: flex;
+  justify-content: center;
+  border: 1px solid transparent;
+  &:hover{
+    border: 1px solid white;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width:425px){
+  .contact__button{
+    width: 100%;
+  }
+}
+
+
+</style>
