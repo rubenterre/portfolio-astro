@@ -22,6 +22,19 @@
 		y conocimiento para formar a futuros profesionales.,<br> Explora mis proyectos y descubre cómo puedo
 		ayudarte a llevar tus ideas al siguiente nivel. ¡Construyamos juntos!
 		</p>
+    <a
+            href="Ruben_Arturo_Terre_Lameiro_CV2024.pdf"
+            download
+            class="about__button"
+          >
+            <img
+              class="about__imgcv"
+              src="/icons/download.svg"
+              alt="Icono de descargar currículum vitae"
+              width="14px"
+            />
+            <p class="about__download">DESCARGAR CV</p>
+          </a>
 	</div>
     <hr class="main__hr">
     </div>
@@ -95,6 +108,32 @@
   line-height: 1.5;
   text-align: center;
 }
+
+  .about__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: $color-third;
+    padding: 10px;
+    border: 1px solid $color-hr;
+    border-radius: 8px;
+    margin: 40px 0px;
+  }
+
+  .about__button:hover {
+    border: 1px solid white;
+  }
+
+  .about__imgcv {
+    width: 14px;
+  }
+
+  .about__download {
+    padding-left: 10px;
+    font-family: $font-primary;
+    font-size: 1.2rem;
+  }
 
 @media (max-width: 992px){
   .home{
