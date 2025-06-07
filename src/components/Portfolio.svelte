@@ -23,16 +23,16 @@
 				</h2>
 				<div class="portfolio__cards">
 					<div class="row">
-						<div class="col s12 m6">
+						<div class="col s12">
 							{#each projectsDev as item}
 								<div class="portfolio__card">
 									 <div class="row">
-										 <div class="col s12 m12 xl6">
+										 <div class="col s12 m6 xl6">
 											<div class="portfolio__img">
-												<img src={item.banner} alt={item.name} class="portfolio__work" />
+												<img src={item.banner} alt={item.name} class="portfolio__work" width="354px"/>
 											</div>
 										</div>
-										<div class="col s12 m12 xl6">
+										<div class="col s12 m6 xl6">
 											<div class="portfolio__details">
 												<h3 class="portfolio__h3">{item.name}</h3>
 												<div class="portfolio__pills">
@@ -66,43 +66,6 @@
 									</div>
 								</div>
 							{/each}
-						</div>
-						<div class="col s12 m6">
-							{#each projectsDesign as item}
-							<div class="portfolio__card">
-								 <div class="row">
-									 <div class="col s12 m12 xl6">
-										<div class="portfolio__img">
-											<img src={item.banner} alt={item.name} class="portfolio__work" />
-										</div>
-									</div>
-									<div class="col s12 m12 xl6">
-										<div class="portfolio__details">
-											<h3 class="portfolio__h3">{item.name}</h3>
-											<div class="portfolio__pills">
-												{#each item.technologies as tech}
-													<img class="portfolio__pill" src={tech.icon} alt={tech.name} width="18px" />
-												{/each}
-											</div>
-											<p class="portfolio__description">
-												{item.description}
-											</p>
-											<div class="portfolio__buttons">
-
-												<a class="portfolio__a portfolio__a--preview" href={item.url}>
-													<img
-														src="icons/link_symbol-1.png"
-														alt="Enlace a la web del proyecto"
-														class="portfolio__code"
-													/>
-													<p class="portfolio__url">Ver</p>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						{/each}
 						</div>
 					</div>
 
@@ -138,15 +101,6 @@
   flex-direction: row;
   align-items: center;
   padding: 1rem 0px;
-}
-
-
-.portfolio__work{
-  width: 100%;
-}
-
-.portfolio__details{
-  margin-left: 20px;
 }
 
 .portfolio__h3{
