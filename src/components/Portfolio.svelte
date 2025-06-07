@@ -182,6 +182,7 @@ margin: 0px;
   align-items: center;
   width: 100px;
   background-color: $color-third;
+  text-decoration: none;
 }
 
 .portfolio__code{
