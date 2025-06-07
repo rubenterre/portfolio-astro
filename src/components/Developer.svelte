@@ -5,7 +5,7 @@
 
 {#each developer as item}
 	<div class="skills__card">
-		<img class="skills__skillicon" src={item.icon} alt="Icono de {item.name}" />
+		<img class="skills__skillicon" src={item.icon} alt="Icono de {item.name}" height="54px"/>
 		<p class="skills__name">
 			{item.name}
 		</p>
