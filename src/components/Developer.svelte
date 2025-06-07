@@ -15,7 +15,7 @@
 
 <style lang="scss">
 @import "../styles/global.scss";
-@import "../styles/materialize.scss";
+ 
 
 
 .skills__card{
