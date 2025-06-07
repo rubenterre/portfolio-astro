@@ -1,6 +1,6 @@
 [
   {
-    "banner": "images/destino_viquingo_web.webp",
+    "banner": "images/destino_viquingo_web.avif",
     "name": "Destino Viquingo web",
     "description": "Página web del libro Destino Viquingo.",
     "url": "https://destinoviquingo.rubenterre.com",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "banner": "images/ADM_Comunicaciones_web.webp",
+    "banner": "images/ADM_Comunicaciones_web.avif",
     "name": "ADM Comunicaciones",
     "description": "Página web corporativa y tienda online.",
     "url": "https://admcomunicaciones.com/",
@@ -23,7 +23,7 @@
     ]
   },
   {
-    "banner": "images/GaliciaWeather_app.webp",
+    "banner": "images/GaliciaWeather_app.avif",
     "name": "GaliciaWeather App",
     "description": "App del tiempo con ilustraciones dinámicas",
     "url": "https://www.behance.net/gallery/155847275/Galicia-Weather-App",
