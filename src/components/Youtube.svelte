@@ -132,7 +132,8 @@ $effect(() => {
 
 </style> -->
 
-<!-- <script>
+<script>
+
 const apiKey = import.meta.env.VITE_API_KEY;
 const channelId = import.meta.env.VITE_CHANNEL_ID;
 const maxResults = 3;
@@ -157,7 +158,7 @@ $effect(() => {
     }
   })();
 });
-</script> -->
+</script>
 
 <section class="youtube">
     <div class="container">
@@ -182,7 +183,7 @@ $effect(() => {
             </div>
             <div class="col s12">
                 <div class="row">
-<!--                     {#if videos.length > 0}
+                    {#if videos.length > 0}
                     {#each videos as video}
                     <div class="col s12 m4">
                         <a href="https://www.youtube.com/watch?v={video.id.videoId}" target="_blank" class="youtube__a">
@@ -194,7 +195,7 @@ $effect(() => {
                     {/each}
                     {:else}
                     <p>Cargando videos...</p>
-                    {/if} -->
+                    {/if}
                 </div>
             </div>
         </div>
