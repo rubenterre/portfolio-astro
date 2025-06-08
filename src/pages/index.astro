@@ -11,14 +11,14 @@ import Footer from "../components/Footer.astro";
 ---
 
 <BaseLayout>
-  <Header />
+  <Header client:load/>
 
-  <Home />
-  <Skills />
-  <Resume />
-  <Portfolio />
-  <Youtube/>
-  <Contact />
+  <Home client:load/>
+  <Skills client:visible/>
+  <Resume client:visible/>
+  <Portfolio client:visible/>
+  <Youtube client:visible/>
+  <Contact client:visible/>
 
-  <Footer />
+  <Footer client:visible/>
 </BaseLayout>
