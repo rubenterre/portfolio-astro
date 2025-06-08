@@ -1,168 +1,177 @@
 <section class="home" id="home">
-    <div class="container">
-        <div class="home__h1">
-		Hola, Soy <br />
-		<span class="home__span">Rubén Terré</span>
-	</div>
-	<div class="home__pills">
-		<div class="home__pill">
-			<h4 class="home__h4">Desarrollador web</h4>
-		</div>
-		<div class="home__pill">
-			<h4 class="home__h4">Diseñador gráfico</h4>
-		</div>
-		<div class="home__pill">
-			<h4 class="home__h4">Docente</h4>
-		</div>
-	</div>
-	<div class="home__description">
-		<p class="home__p">
-		Como <span class="main__span">desarrollador web</span>, me especializo en ofrecer soluciones digitales personalizadas. Como
-		<span class="main__span">diseñador gráfico</span>, puedo crear experiencias visuales a medida. Como <span class="main__span">educador</span>, comparto mi pasión
-		y conocimiento para formar a futuros profesionales.,<br> Explora mis proyectos y descubre cómo puedo
-		ayudarte a llevar tus ideas al siguiente nivel. ¡Construyamos juntos!
-		</p>
-    <a
-            href="Ruben_Arturo_Terre_Lameiro_CV2024.pdf"
-            download
-            class="home__button"
-          >
-            <img
-              class="home__imgcv"
-              src="/icons/download.svg"
-              alt="Icono de descargar currículum vitae"
-              width="14px"
-            />
-            <p class="home__download">DESCARGAR CV</p>
-          </a>
-	</div>
-    <hr class="main__hr">
+  <div class="container">
+    <div class="home__h1">
+      Hola, Soy <br />
+      <span class="home__span">Rubén Terré</span>
     </div>
+    <div class="home__pills">
+      <div class="home__pill">
+        <h4 class="home__h4">Desarrollador web</h4>
+      </div>
+      <div class="home__pill">
+        <h4 class="home__h4">Diseñador gráfico</h4>
+      </div>
+      <div class="home__pill">
+        <h4 class="home__h4">Docente</h4>
+      </div>
+    </div>
+    <div class="home__description">
+      <p class="home__p">
+        Como <span class="main__span">desarrollador web</span>, me especializo
+        en ofrecer soluciones digitales personalizadas. Como
+        <span class="main__span">diseñador gráfico</span>, puedo crear
+        experiencias visuales a medida. Como <span class="main__span"
+          >educador</span
+        >, comparto mi pasión y conocimiento para formar a futuros
+        profesionales.,<br /> Explora mis proyectos y descubre cómo puedo ayudarte
+        a llevar tus ideas al siguiente nivel. ¡Construyamos juntos!
+      </p>
+      <div class="home__cv">
+              <a
+        href="Ruben_Arturo_Terre_Lameiro_CV2024.pdf"
+        download
+        class="home__button"
+      >
+        <img
+          class="home__imgcv"
+          src="/icons/download.svg"
+          alt="Icono de descargar currículum vitae"
+          width="14px"
+        />
+        <p class="home__download">DESCARGAR CV</p>
+      </a>
+      </div>
+
+    </div>
+    <hr class="main__hr" />
+  </div>
 </section>
 
-
 <style lang="scss">
-@use "../styles/global.scss" as *;
- 
+  @use "../styles/global.scss" as *;
 
+  // Home
 
-
-// Home
-
-.home{
-  margin: 10% 0px 50px 0px;
-}
-
-.home__h1{
-  text-align: center;
-  font-family: $font-third;
-  font-size: 7vw;
-  font-weight: 600;
-}
-
-.home__span{
-  color: $color-secundary;
-}
-
-.home__pills{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  margin-bottom: 40px;
-}
-
-.home__pill{
-  height: 43px;
-  background-color: $color-third;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 10px;
-  border-radius: 8px;
-}
-
-.home__pill:hover{
-  background-color: $color-secundary;
-
-  & .home__h4{
-    color: $color-background;
+  .home {
+    margin: 10% 0px 50px 0px;
   }
-}
 
-.home__h4{
-  font-family: $font-primary;
-  font-weight: 400;
-  color: white;
-  font-size: .8rem;
-  margin: 0px;
-  text-align: center;
-}
+  .home__h1 {
+    text-align: center;
+    font-family: $font-third;
+    font-size: 7vw;
+    font-weight: 600;
+  }
 
-.home__p{
-  font-family: $font-primary;
-  font-size: 1.2rem;
-  font-weight: 400;
-  letter-spacing: 0px;
-  line-height: 1.5;
-  text-align: center;
-}
+  .home__span {
+    color: $color-secundary;
+  }
 
-  .home__button{
+  .home__pills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .home__pill {
+    height: 43px;
+    background-color: $color-third;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    border-radius: 8px;
+  }
+
+  .home__pill:hover {
+    background-color: $color-secundary;
+
+    & .home__h4 {
+      color: $color-background;
+    }
+  }
+
+  .home__h4 {
+    font-family: $font-primary;
+    font-weight: 400;
+    color: white;
+    font-size: 0.8rem;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .home__p {
+    font-family: $font-primary;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .home__cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home__button {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     background-color: $color-third;
-    padding: 10px;
+    padding: 10px 40px;
     border: 1px solid $color-hr;
     border-radius: 8px;
     margin: 40px 0px;
+    max-width: 600px;
   }
 
-  .home__button:hover{
+  .home__button:hover {
     border: 1px solid white;
   }
 
-  .home__imgcv{
+  .home__imgcv {
     width: 14px;
   }
 
-  .home__download{
+  .home__download {
     padding-left: 10px;
     font-family: $font-primary;
     font-size: 1.2rem;
   }
 
-@media (max-width: 992px){
-  .home{
-    margin: 30% 0px 50px 0px;
-  }
-}
-
-@media (max-width: 834px){
-  .home{
-    margin: 35% 0px 50px 0px;
-  }
-}
-
-@media (max-width: 425px){
-  .home{
-    margin: 65% 0px 50px 0px;
+  @media (max-width: 992px) {
+    .home {
+      margin: 30% 0px 50px 0px;
+    }
   }
 
-  .home__h1{
-    font-size: 10vw;
+  @media (max-width: 834px) {
+    .home {
+      margin: 35% 0px 50px 0px;
+    }
   }
 
-  .home__pills{
-    margin-top: 20px;
-  }
+  @media (max-width: 425px) {
+    .home {
+      margin: 65% 0px 50px 0px;
+    }
 
-  .home__p{
-    display: none;
-  }
-}
+    .home__h1 {
+      font-size: 10vw;
+    }
 
+    .home__pills {
+      margin-top: 20px;
+    }
+
+    .home__p {
+      display: none;
+    }
+  }
 </style>
