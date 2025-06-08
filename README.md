@@ -1,47 +1,84 @@
-# Astro Starter Kit: Minimal
+# Portfolio Astro
 
-```sh
-npm create astro@latest -- --template minimal
+
+![Astro](https://img.shields.io/badge/Astro-1B253A?logo=astro&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?logo=svelte&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)
+
+Este proyecto es un portafolio personal desarrollado con [Astro](https://astro.build/) y componentes Svelte, pensado para mostrar tus habilidades, experiencia, proyectos y enlaces a redes sociales, incluyendo la integración dinámica de vídeos recientes de YouTube.
+
+## 🚀 Estructura del Proyecto
+
 ```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
 /
-├── public/
+├── public/                  # Archivos estáticos (imágenes, iconos, etc.)
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/          # Componentes Astro y Svelte
+│   ├── layouts/             # Layouts reutilizables
+│   └── pages/               # Páginas principales del sitio
+├── package.json
+└── astro.config.mjs
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🧑‍💻 Tecnologías
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- [Astro](https://astro.build/)
+- [Svelte 5](https://svelte.dev/)
+- SCSS para estilos
+- Integración con la API de YouTube
 
-Any static assets, like images, can be placed in the `public/` directory.
+## ⚙️ Instalación y uso
 
-## 🧞 Commands
+1. **Clona el repositorio:**
+   ```sh
+   git clone https://github.com/tu-usuario/portfolio-astro.git
+   cd portfolio-astro
+   ```
 
-All commands are run from the root of the project, from a terminal:
+2. **Instala las dependencias:**
+   ```sh
+   npm install
+   ```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+3. **Configura las variables de entorno:**
 
-## 👀 Want to learn more?
+   Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+   ```
+   PUBLIC_API_KEY=tu_api_key_de_youtube
+   PUBLIC_CHANNEL_ID=tu_channel_id
+   ```
+
+   > Puedes obtener la API Key desde [Google Cloud Console](https://console.cloud.google.com/).
+
+4. **Inicia el servidor de desarrollo:**
+   ```sh
+   npm run dev
+   ```
+
+   El sitio estará disponible en [http://localhost:4321](http://localhost:4321)
+
+## 📦 Comandos útiles
+
+| Comando            | Acción                                         |
+|--------------------|-----------------------------------------------|
+| `npm install`      | Instala las dependencias                      |
+| `npm run dev`      | Inicia el servidor de desarrollo              |
+| `npm run build`    | Genera la versión de producción en `/dist`    |
+| `npm run preview`  | Previsualiza la versión de producción         |
+
+## ✨ Características
+
+- Diseño responsive y moderno.
+- Sección de habilidades, experiencia y proyectos.
+- Integración con redes sociales (YouTube, LinkedIn, Behance, GitHub).
+- Últimos vídeos de tu canal de YouTube cargados dinámicamente.
+- Fácilmente personalizable.
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT.
+
+---
+
+¿Dudas o sugerencias? ¡Contribuye o abre un issue!
