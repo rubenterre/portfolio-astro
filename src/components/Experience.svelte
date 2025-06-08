@@ -8,7 +8,7 @@
 		<div class="col s12">
 			<div class="resume__cards">
 				{#each experience as item}
-					<div class="resume__card">
+					<!-- <div class="resume__card">
 						<div class="row">
                             <div class="col s12">
 								<div class="resume__detail">
@@ -33,7 +33,32 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
+          <div class="resume__card">
+            <div class="row">
+              
+              <div class="col s12">
+                <div class="resume__pill">
+										<h4 class="resume__h4">
+											{item.date}
+										</h4>
+									</div>
+                               <div class="resume__logo">
+                                        <img class="resume__img" src={item.icon} alt={item.name} width="{item.width}" />
+                                    </div>
+                                
+                <h3 class="resume__h3">
+										{item.profession}
+									</h3>
+									<p class="resume__name">
+										{item.name}
+									</p>
+									<p class="resume__description">
+										{item.description}
+									</p>
+              </div>
+            </div>
+          </div>
 				{/each}
 			</div>
 		</div>
@@ -55,18 +80,20 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 50px;
+  max-width: 600px;
 }
 
 .resume__card{
   display: flex;
   justify-content: space-between;
-  border-left: 3px solid $color-hr;
   padding-left: 20px;
 }
 
-.resume__card:hover{
-  border-left: 3px solid $color-secundary;
-  
+.resume__detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .resume__logo{
@@ -76,7 +103,7 @@
 .resume__pill{
   border: 0.5px solid $color-hr;
   border-radius: 8px;
-  width: 110px;
+  width: fit-content;
   background-color: $color-third;
   margin-left: 3px;
 }
@@ -106,5 +133,13 @@
   font-family: $font-primary;
   font-size: 1rem;
   color: white;
+    border-bottom: 3px solid $color-hr;
+    padding-bottom: 1rem;
+
+}
+
+.resume__description:hover{
+  border-bottom: 3px solid $color-secundary;
+  
 }
 </style>
