@@ -9,6 +9,10 @@ import Youtube from "../components/Youtube.svelte";
 import Contact from "../components/Contact.astro";
 import Footer from "../components/Footer.astro";
 
+const apiKey = import.meta.env.PUBLIC_API_KEY;
+const channelId = import.meta.env.PUBLIC_CHANNEL_ID;
+
+
 ---
 
 <BaseLayout>
@@ -18,7 +22,7 @@ import Footer from "../components/Footer.astro";
   <Skills client:visible/>
   <Resume client:visible/>
   <Portfolio client:visible/>
-  <Youtube client:visible/>
+  <Youtube client:visible apiKey={apiKey} channelId={channelId}/>
   <Contact client:visible/>
 
   <Footer client:visible/>

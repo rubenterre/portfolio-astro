@@ -1,7 +1,7 @@
 <script>
 
-const apiKey = import.meta.env.PUBLIC_API_KEY;
-const channelId = import.meta.env.PUBLIC_CHANNEL_ID;
+const { apiKey, channelId } = $props();
+
 const maxResults = 3;
 
 let videos = $state([]);
