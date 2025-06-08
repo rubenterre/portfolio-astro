@@ -16,14 +16,14 @@ const channelId = import.meta.env.PUBLIC_CHANNEL_ID;
 ---
 
 <BaseLayout>
-  <Header client:load/>
+  <Header/>
 
-  <Home client:load/>
-  <Skills client:visible/>
-  <Resume client:visible/>
+  <Home/>
+  <Skills/>
+  <Resume/>
   <Portfolio client:visible/>
   <Youtube client:visible apiKey={apiKey} channelId={channelId}/>
-  <Contact client:visible/>
+  <Contact/>
 
-  <Footer client:visible/>
+  <Footer/>
 </BaseLayout>
