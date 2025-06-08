@@ -1,6 +1,5 @@
 <script>
 	  import projectsDev from '../data/projectsDev.json';
-	  import projectsDesign from '../data/projectsDesign.json';
 
 </script>
 
