@@ -65,6 +65,23 @@ $effect(() => {
                 </div>
             </div>
         </div>
+        <div class="col s12">
+          <div class="youtube__btn">
+                    <a
+        href="https://www.youtube.com/@rubenterre?sub_confirmation=1"
+        class="youtube__button"
+      >
+        <img
+          class="youtube__imglink"
+          src="/icons/link-icon.svg"
+          alt="Icono de enlace al canal de YouTube"
+          width="14px"
+        />
+        <p class="youtube__p">Ver el canal de YouTube</p>
+      </a>
+          </div>
+
+        </div>
         <hr class="main__hr" />
     </div>
 </section>
@@ -105,4 +122,38 @@ $effect(() => {
 .youtube__picture:hover{
   border: 1px solid $color-secundary;
 }
+
+.youtube__btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: $color-third;
+    padding: 10px 40px;
+    border: 1px solid $color-hr;
+    border-radius: 8px;
+    margin: 40px 0px;
+    max-width: 600px;
+  }
+
+  .youtube__button:hover {
+    border: 1px solid white;
+  }
+
+  .youtube__imgcv {
+    width: 14px;
+  }
+
+  .youtube__p {
+    padding-left: 10px;
+    font-family: $font-primary;
+    font-size: 1.2rem;
+    text-align: center;
+  }
 </style>
