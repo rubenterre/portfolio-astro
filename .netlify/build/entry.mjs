@@ -1,6 +1,6 @@
 import { r as renderers } from './chunks/_@astro-renderers_DNXR2CeT.mjs';
 import { s as serverEntrypointModule } from './chunks/_@astrojs-ssr-adapter_CvSoi7hX.mjs';
-import { manifest } from './manifest_BYnjqZyD.mjs';
+import { manifest } from './manifest_D_Tjn-0g.mjs';
 import { createExports } from '@astrojs/netlify/ssr-function.js';
 
 const serverIslandMap = new Map();;
@@ -18,7 +18,7 @@ const _manifest = Object.assign(manifest, {
     middleware: () => import('./_noop-middleware.mjs')
 });
 const _args = {
-    "middlewareSecret": "fb5acfd6-2273-403f-b28e-7d0c1827b570"
+    "middlewareSecret": "076ac23b-f087-43bc-8193-2a969fcf4ea0"
 };
 const _exports = createExports(_manifest, _args);
 const __astrojsSsrVirtualEntry = _exports.default;

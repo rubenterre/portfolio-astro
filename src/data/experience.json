@@ -1,4 +1,12 @@
 [
+    {
+    "icon": "/icons/logos/captioma_logo.svg",
+    "width": "60px",
+    "name": "Captioma Salnés",
+    "profession": "Profesor titular",
+    "date": "Actualmente",
+    "description": "Docencia de certificado de profesionalidad de desarrollo web (IFCD0110)"
+  },
   {
     "icon": "/icons/logos/forga_white.svg",
     "width": "60px",
