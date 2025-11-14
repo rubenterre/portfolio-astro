@@ -78,7 +78,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  border: 0.5px solid $color-hr;
+  border: 1px solid $color-hr;
   width: fit-content;
   padding: 0px 10px;
   margin-bottom: 10px;
@@ -129,6 +129,105 @@
     display: flex;
     justify-content: center;
   }
+}
+
+
+/* Skills */
+
+.skills__card{
+  width: 120px;
+  height: 128px;
+  border-radius: 8px;
+  border: 1px solid $color-hr;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: $color-third;
+    position: relative;
+  overflow: hidden;
+  z-index: 0;
+    box-shadow: 0px 2px 6px 0px rgba(255, 255, 255, 0.2); /* sombra inicial */
+  transition: box-shadow 0.4s cubic-bezier(.25,.8,.25,1);
+}
+
+/* .skills__card:hover{
+  border: 1px solid white;
+
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.501);
+
+  & .skills__name{
+    color: $color-primary;
+  }
+}
+ */
+
+ @property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.skills__card:hover{
+  border: 0px;
+    box-shadow: 0px 2px 12px 0px rgba(255, 255, 255, 0.36); /* sombra más profunda */
+}
+
+
+.skills__card::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: 10px;
+  z-index: 1;
+  padding: 4px;
+  background: conic-gradient(
+    from var(--angle),
+    white,
+    $color-secundary
+  );
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s;
+}
+
+.skills__card::before{
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+
+.skills__card:hover::after {
+  opacity: 1;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  to { --angle: 360deg; }
+}
+
+.skills__skillicon{
+  height: 54px;
+  margin-top: 20px;
+}
+
+.skills__name{
+  font-family: $font-secundary;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.skills__line{
+  border-bottom: 3px solid white;
+  width: 41px;
 }
 
 // Media Query Ranges

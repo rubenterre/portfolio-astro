@@ -99,7 +99,7 @@
 }
 
 .resume__pill{
-  border: 0.5px solid $color-hr;
+  border: 1px solid $color-hr;
   border-radius: 8px;
   width: fit-content;
   background-color: $color-third;

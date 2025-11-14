@@ -127,10 +127,27 @@ a{
   display: flex;
   justify-content: center;
   border: 1px solid transparent;
+  border-radius: 8px;
+
+  & img{
+	border: 1px solid $color-hr;
+	border-radius: 8px;
+	transition: all .3s linear;
+  }
+
   &:hover{
     border: 1px solid white;
     border-radius: 8px;
+
+	& img{
+	/* border: 1px solid $color-hr;*/
+	border-radius: 8px; 
+	box-shadow: inset 0px 0px 5px white;
   }
+  }
+
+  
+
 }
 
 @media (max-width:425px){
