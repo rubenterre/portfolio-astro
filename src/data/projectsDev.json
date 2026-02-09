@@ -29,7 +29,7 @@
     "name": "Segundo Rey - Cerámicas y materiales de baño",
     "description": "Página web corporativa, gestión de reservas y tienda online de materiales de construcción de baños.",
     "url": "https://segundorey.com/",
-    "urlcode": "#",
+    "urlcode": "",
     "technologies": [
       { "icon": "icons/technologies/wordpress_icon_white.svg", "name": "Wordpress" }
     ]

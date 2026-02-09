@@ -50,14 +50,30 @@
                       {item.description}
                     </p>
                     <div class="portfolio__buttons">
-                      <a class="portfolio__a" href={item.urlcode}>
+                      <!--   <a class="portfolio__a" href={item.urlcode}>
                         <img
                           src="icons/brand-github.svg"
                           alt="Logo de GitHub"
                           class="portfolio__code"
                         />
                         <p class="portfolio__url">Código</p>
-                      </a>
+                      </a> -->
+
+                      {#if item.urlcode}
+                        <a
+                          class="portfolio__a"
+                          href={item.urlcode}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            src="icons/brand-github.svg"
+                            alt="Logo de GitHub"
+                            class="portfolio__code"
+                          />
+                          <p class="portfolio__url">Código</p>
+                        </a>
+                      {/if}
                       <a
                         class="portfolio__a portfolio__a--preview"
                         href={item.url}
@@ -97,7 +113,6 @@
   // Portfolio
 
   .portfolio__cards {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,51 +123,48 @@
   }
 
   .portfolio__card {
-
-
-	  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
-  align-items: center;
-  gap: 2rem;
-  padding: 1.5rem;
-  border-radius: 12px;
-  background: lighten($color-third, 5%); 
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  margin: 10px 0px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: lighten($color-third, 5%);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    margin: 10px 0px;
   }
 
-
   .portfolio__h3 {
-  font-family: $font-primary;
-  font-size: 1.4rem;
-  margin: 0 0 0.75rem;
-}
+    font-family: $font-primary;
+    font-size: 1.4rem;
+    margin: 0 0 0.75rem;
+  }
 
-.portfolio__description {
-  font-family: $font-primary;
-  color: $color-hr;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin: 0 0 1.25rem;
-}
+  .portfolio__description {
+    font-family: $font-primary;
+    color: $color-hr;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 0 1.25rem;
+  }
 
-.portfolio__buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin: 0;
-}
+  .portfolio__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 0;
+  }
 
   .portfolio__img {
-  width: 100%;
-  max-width: 520px;
-}
+    width: 100%;
+    max-width: 520px;
+  }
 
-.portfolio__work {
-  border-radius: 12px;
-  width: 100%;
-  display: block;
-}
+  .portfolio__work {
+    border-radius: 12px;
+    width: 100%;
+    display: block;
+  }
 
   .portfolio__work:hover {
     box-shadow: 0px 4px 10px $color-secundary;
@@ -207,19 +219,19 @@
   }
 
   @media (min-width: 1024px) {
-  .portfolio__h3 {
-    font-size: 1.4rem;
-  }
+    .portfolio__h3 {
+      font-size: 1.4rem;
+    }
 
-  .portfolio__description {
-    font-size: 1.05rem;
-    line-height: 1.6;
-  }
+    .portfolio__description {
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
 
-  .portfolio__buttons {
-    gap: 24px;
+    .portfolio__buttons {
+      gap: 24px;
+    }
   }
-}
 
   @media (max-width: 1024px) {
     .portfolio__details {
@@ -227,14 +239,14 @@
     }
   }
 
-@media (max-width: 768px) {
-  .portfolio__card {
-    grid-template-columns: 1fr;
-  }
+  @media (max-width: 768px) {
+    .portfolio__card {
+      grid-template-columns: 1fr;
+    }
 
-  .portfolio__details {
-    margin-top: 1.5rem;
-    margin-left: 0;
+    .portfolio__details {
+      margin-top: 1.5rem;
+      margin-left: 0;
+    }
   }
-}
 </style>
