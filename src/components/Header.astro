@@ -4,15 +4,15 @@
 
 <section class="header">
   <nav class="header__nav hide-on-med-and-down">
-    <div class="row"> 
+    <div class="row">
       <div class="col s3">
         <div class="header__logo">
           <a href="/" class="header__a--logo">
-          <img
-            src="Ruben_Terre_Logo_blanco.svg"
-            alt="Logo de Rubén Terré"
-            class="header__img"
-          />
+            <img
+              src="Ruben_Terre_Logo_blanco.svg"
+              alt="Logo de Rubén Terré"
+              class="header__img"
+            />
           </a>
         </div>
       </div>
@@ -20,16 +20,19 @@
         <div class="header__menu">
           <ul class="header__ul">
             <li class="header__li">
-              <a class="header__a header__a--home" href="#home">Inicio</a>
+              <a class="header__a header__a--active" href="#home">Inicio</a>
             </li>
             <li class="header__li">
-              <a class="header__a" href="#about">Sobre mí</a>
+              <a class="header__a" href="#skills">Sobre mí</a>
             </li>
             <li class="header__li">
               <a class="header__a" href="#resume">Trayectoria</a>
             </li>
             <li class="header__li">
               <a class="header__a" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="header__li">
+              <a class="header__a" href="#youtube">YouTube</a>
             </li>
             <li class="header__li header__li--contact">
               <a class="header__a header__a--contact" href="#contact"
@@ -206,6 +209,33 @@
   </nav>
 </section>
 
+<script>
+  if (typeof window !== "undefined") {
+    const sections = document.querySelectorAll("section[id]");
+    const navLinks = document.querySelectorAll(".header__a[href^='#']");
+
+    const options = {
+      threshold: 0.1,
+      rootMargin: "0px 0px -40% 0px",
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        const id = entry.target.getAttribute("id");
+        const link = document.querySelector(`.header__a[href="#${id}"]`);
+        if (!link) return;
+
+        if (entry.isIntersecting) {
+          navLinks.forEach((l) => l.classList.remove("header__a--active"));
+          link.classList.add("header__a--active");
+        }
+      });
+    }, options);
+
+    sections.forEach((section) => observer.observe(section));
+  }
+</script>
+
 <style lang="scss">
   @use "../styles/global.scss" as *;
 
@@ -231,7 +261,7 @@
     height: 58px;
   }
 
-  .header__a--logo{
+  .header__a--logo {
     text-decoration: none;
   }
 
@@ -268,7 +298,7 @@
     border-bottom: 2px solid white;
   }
 
-  .header__a--home {
+  .header__a--active {
     border-bottom: 2px solid $color-secundary;
   }
 

@@ -26,7 +26,7 @@ $effect(() => {
 });
 </script>
 
-<section class="youtube">
+<section class="youtube" id="youtube">
     <div class="container">
         <div class="row">
             <div class="col s12">
