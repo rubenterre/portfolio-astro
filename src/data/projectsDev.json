@@ -15,7 +15,7 @@
   {
     "banner": "projects/EntradasVivas_mockup.avif",
     "name": "Entradas Vivas",
-    "description": "Sitio web de encargo de entradas conmemorativas de eventos (conciertos, festivales, espectáculos deportivos...)",
+    "description": "Plataforma de encargo y personalización de entradas conmemorativas de eventos (conciertos, festivales, espectáculos deportivos, etc.) con panel de gestión basado en headless CMS.",
     "url": "https://entradasvivas.netlify.app",
     "urlcode": "https://github.com/rubenterre/entradas-vivas",
     "technologies": [
