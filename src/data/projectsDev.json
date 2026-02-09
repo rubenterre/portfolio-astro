@@ -1,9 +1,9 @@
 [
   {
-    "banner": "images/destino_viquingo_web.avif",
+    "banner": "projects/DestinoViquingo_mockup.avif",
     "name": "Destino Viquingo web",
-    "description": "Página web del libro Destino Viquingo.",
-    "url": "https://destinoviquingo.rubenterre.com",
+    "description": "Página web promocional del libro Destino Viquingo sobre los vikingos en Galicia.",
+    "url": "https://github.com/rubenterre/DestinoViquingoWeb",
     "urlcode": "https://github.com/rubenterre/DestinoViquingoWeb",
     "technologies": [
       { "icon": "icons/technologies/html5_icon_white.svg", "name": "HTML" },
@@ -13,21 +13,33 @@
     ]
   },
   {
-    "banner": "images/ADM_Comunicaciones_web.avif",
-    "name": "ADM Comunicaciones",
-    "description": "Página web corporativa y tienda online.",
-    "url": "https://admcomunicaciones.com/",
-    "urlcode": "https://www.behance.net/gallery/68318171/Web-Design-ADM-Comunicaciones",
+    "banner": "projects/EntradasVivas_mockup.avif",
+    "name": "Entradas Vivas",
+    "description": "Sitio web de encargo de entradas conmemorativas de eventos (conciertos, festivales, espectáculos deportivos...)",
+    "url": "https://entradasvivas.netlify.app",
+    "urlcode": "https://github.com/rubenterre/entradas-vivas",
+    "technologies": [
+      { "icon": "icons/technologies/astro-icon-light.svg", "name": "Astro" },
+      { "icon": "icons/technologies/sketch_icon_white.svg", "name": "Sketch" },
+      { "icon": "icons/technologies/storyblok_white_icon.svg", "name": "Storyblok"}
+    ]
+  },
+  {
+    "banner": "projects/SegundoRey_mockup.avif",
+    "name": "Segundo Rey - Cerámicas y materiales de baño",
+    "description": "Página web corporativa, gestión de reservas y tienda online de materiales de construcción de baños.",
+    "url": "https://segundorey.com/",
+    "urlcode": "#",
     "technologies": [
       { "icon": "icons/technologies/wordpress_icon_white.svg", "name": "Wordpress" }
     ]
   },
   {
-    "banner": "images/GaliciaWeather_app.avif",
-    "name": "GaliciaWeather App",
-    "description": "App del tiempo con ilustraciones dinámicas",
-    "url": "https://www.behance.net/gallery/155847275/Galicia-Weather-App",
-    "urlcode": "",
+    "banner": "projects/OutfitSky_mockup.avif",
+    "name": "OutfitSky App",
+    "description": "App del tiempo que te viste, ya que además de ver ilustraciones de tu ciudad también te sugiere ropa en función del tiempo que hace.",
+    "url": "https://outfitsky.netlify.app",
+    "urlcode": "https://github.com/rubenterre/outfitsky-app",
     "technologies": [
       { "icon": "icons/technologies/svelte_icon_white.svg", "name": "Svelte" },
       { "icon": "icons/technologies/sketch_icon_white.svg", "name": "Sketch" }
