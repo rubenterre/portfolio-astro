@@ -40,11 +40,11 @@ html{
    //Colors
   $color-background: #0D0D0D;
   $color-primary: white;
-  $color-secundary: #28E98C;
+  $color-secondary: #28E98C;
   $color-third: #191919;
   $color-hr:#979797;
   $font-primary: 'Poppins-Regular';
-  $font-secundary: 'Poppins-Medium';
+  $font-secondary: 'Poppins-Medium';
   $font-third: 'Sora';
   $font-important: 'Poppins-Bold';
   
@@ -107,7 +107,7 @@ html{
 }
 
 .main__span{
-  color: $color-secundary;
+  color: $color-secondary;
 }
 
 @mixin hover-effect {
@@ -188,7 +188,7 @@ html{
   background: conic-gradient(
     from var(--angle),
     white,
-    $color-secundary
+    $color-secondary
   );
   mask:
     linear-gradient(#fff 0 0) content-box,
@@ -223,7 +223,7 @@ html{
 }
 
 .skills__name{
-  font-family: $font-secundary;
+  font-family: $font-secondary;
   color: white;
   font-size: 1rem;
   padding: 10px;

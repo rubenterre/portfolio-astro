@@ -120,7 +120,7 @@ $effect(() => {
 }
 
 .youtube__picture:hover{
-  border: 1px solid $color-secundary;
+  border: 1px solid $color-secondary;
 }
 
 .youtube__btn{

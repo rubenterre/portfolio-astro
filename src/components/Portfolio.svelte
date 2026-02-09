@@ -167,7 +167,7 @@
   }
 
   .portfolio__work:hover {
-    box-shadow: 0px 4px 10px $color-secundary;
+    box-shadow: 0px 4px 10px $color-secondary;
   }
 
   .portfolio__pills {

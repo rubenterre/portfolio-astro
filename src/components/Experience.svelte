@@ -116,7 +116,7 @@
 }
 
 .resume__h3{
-  font-family: $font-secundary;
+  font-family: $font-secondary;
   font-size: 1.3rem;
   margin: 10px 0px;
   color: white;
@@ -139,7 +139,7 @@
 }
 
 .resume__description:hover{
-  border-bottom: 3px solid $color-secundary;
+  border-bottom: 3px solid $color-secondary;
   
 }
 </style>
