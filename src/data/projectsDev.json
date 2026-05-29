@@ -1,4 +1,16 @@
 [
+    {
+    "banner": "projects/LatentoAC_mockup.avif",
+    "name": "Latento Altas Capacidades",
+    "description": "Página web corporativa del gabinete con servicio integral a las altas capacidades.",
+    "url": "https://latentoac.com",
+    "urlcode": "",
+    "technologies": [
+      { "icon": "icons/technologies/astro-icon-light.svg", "name": "Astro" },
+      { "icon": "icons/technologies/decap_icon_white.svg", "name": "DecapCMS" },
+      { "icon": "icons/technologies/sketch_icon_white.svg", "name": "Sketch" }
+    ]
+  },
   {
     "banner": "projects/DestinoViquingo_mockup.avif",
     "name": "Destino Viquingo web",
@@ -6,9 +18,8 @@
     "url": "https://github.com/rubenterre/DestinoViquingoWeb",
     "urlcode": "https://github.com/rubenterre/DestinoViquingoWeb",
     "technologies": [
-      { "icon": "icons/technologies/html5_icon_white.svg", "name": "HTML" },
-      { "icon": "icons/technologies/css_icon_white.svg", "name": "CSS" },
-      { "icon": "icons/technologies/javascript_icon_white.svg", "name": "JavaScript" },
+      { "icon": "icons/technologies/astro-icon-light.svg", "name": "Astro" },
+      { "icon": "icons/technologies/stripe_icon_white.svg", "name": "Stripe" },
       { "icon": "icons/technologies/sketch_icon_white.svg", "name": "Sketch" }
     ]
   },
