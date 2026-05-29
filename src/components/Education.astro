@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 const educacion = (await getCollection("educacion")).map((entry) => entry.data);
 ---
 
-<section class="resume">
+<div class="resume">
   <div class="row">
     <div class="col s12">
       <div class="resume__cards">
@@ -38,7 +38,7 @@ const educacion = (await getCollection("educacion")).map((entry) => entry.data);
       </div>
     </div>
   </div>
-</section>
+</div>
 
 <style lang="scss">
   @use "../styles/global.scss" as *;

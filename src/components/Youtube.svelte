@@ -25,7 +25,7 @@
   });
 </script>
 
-<section class="youtube" id="youtube">
+<section class="youtube" id="youtube" aria-labelledby="youtube-title">
   <div class="container">
     <div class="row">
       <div class="col s12">
@@ -47,7 +47,7 @@
             width="150px"
           />
         </div>
-        <h2 class="main__h2">
+        <h2 class="main__h2" id="youtube-title">
           Echa un ojo a mis últimos <span class="main__span">vídeos</span> en desarrollo
           web.
         </h2>

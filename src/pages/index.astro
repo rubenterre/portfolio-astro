@@ -14,7 +14,7 @@ const channelId = import.meta.env.PUBLIC_CHANNEL_ID;
 ---
 
 <BaseLayout>
-  <Header />
+  <Header slot="header" />
 
   <Home />
   <Skills />
@@ -23,5 +23,5 @@ const channelId = import.meta.env.PUBLIC_CHANNEL_ID;
   <Youtube client:visible apiKey={apiKey} channelId={channelId} />
   <Contact />
 
-  <Footer />
+  <Footer slot="footer" />
 </BaseLayout>

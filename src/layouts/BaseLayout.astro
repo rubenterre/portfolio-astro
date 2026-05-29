@@ -79,6 +79,10 @@ import "../styles/global.scss";
     <meta name="theme-color" content="#0D0D0D" />
   </head>
   <body>
-    <slot />
+    <slot name="header" />
+    <main id="main-content">
+      <slot />
+    </main>
+    <slot name="footer" />
   </body>
 </html>
