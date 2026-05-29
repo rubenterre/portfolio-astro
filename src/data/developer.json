@@ -42,5 +42,10 @@
   {
     "icon": "/icons/skills/github_icon.svg",
     "name": "GitHub"
+  },
+  {
+    "icon": "/icons/skills/capacitor_icon.svg",
+    "name": "Capacitor"
   }
+
 ]

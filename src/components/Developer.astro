@@ -1,7 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 
-const developer = (await getCollection("developer")).map((entry) => entry.data);
+const developer = (await getCollection("developer"))
+  .sort((a, b) => Number(a.id) - Number(b.id))
+  .map((entry) => entry.data);
 ---
 
 {

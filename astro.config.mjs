@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://rubenterre.com",
+  site: "https://rubenterre.me",
   output: "static",
   integrations: [svelte(), sitemap()],
   adapter: netlify(),
