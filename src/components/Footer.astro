@@ -1,43 +1,44 @@
 <footer class="footer" id="footer">
-    <p class="footer__p">
-        2025 - Rubén Terré. <br> Diseñado y desarrollado por <a class="footer__a" href="https://rubenterre.com">Ruben Terré</a>.
-    </p>
-    <p class="footer__svelte">
-        Hecho con <a class="footer__a" href="https://astro.build">Astro</a> y <a class="footer__a" href="https://svelte.dev/">Svelte</a>
-    </p>
+  <p class="footer__p">
+    2026 - Rubén Terré. <br /> Diseñado y desarrollado por <a
+      class="footer__a"
+      href="https://rubenterre.com">Ruben Terré</a
+    >.
+  </p>
+  <p class="footer__svelte">
+    Hecho con <a class="footer__a" href="https://astro.build">Astro</a> y <a
+      class="footer__a"
+      href="https://svelte.dev/">Svelte</a
+    >
+  </p>
 </footer>
 
 <style lang="scss">
+  @use "../styles/global.scss" as *;
 
-@use "../styles/global.scss" as *;
+  .footer {
+    background-color: $color-third;
+    padding: 20px 0px;
+    margin-top: 30px;
+  }
 
+  .footer__p {
+    font-family: $font-primary;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+  }
 
-.footer{
-  background-color: $color-third;
-  padding: 20px 0px;
-  margin-top: 30px;
-}
+  .footer__svelte {
+    font-family: $font-primary;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+  }
 
-.footer__p{
-  font-family: $font-primary;
-  font-size: 1rem;
-  color: white;
-  text-align: center;
-}
-
-.footer__svelte{
-  font-family: $font-primary;
-  font-size: 1rem;
-  color: white;
-  text-align: center;
-  margin: 10px 0px;
-}
-
-.footer__a{
-  color: $color-secondary;
-  text-decoration: underline;
-}
-
-
-
+  .footer__a {
+    color: $color-secondary;
+    text-decoration: underline;
+  }
 </style>

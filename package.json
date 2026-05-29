@@ -6,10 +6,13 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "@astrojs/netlify": "^7.0.11",
+    "@astrojs/sitemap": "^3.6.0",
     "@astrojs/svelte": "^8.1.2",
     "@sveltejs/vite-plugin-svelte": "^5.1.0",
     "astro": "^6.4.0",
@@ -18,6 +21,9 @@
   },
   "devDependencies": {
     "@types/node": "^22.15.30",
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-svelte": "^3.3.3",
     "typescript": "^5.8.3"
   }
 }

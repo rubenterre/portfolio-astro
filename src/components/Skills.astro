@@ -1,104 +1,91 @@
 ---
-    import Developer from "./Developer.svelte";
-    import Designer from "./Designer.svelte";
-    import Instructor from "./Instructor.svelte";
+import Developer from "./Developer.astro";
+import Designer from "./Designer.astro";
+import Instructor from "./Instructor.astro";
 ---
- 
- <section class="skills" id="skills">
-     <div class="container">
-         <div class="row">
-             <div class="col s12">
-                <div class="main__pills">
 
-                 <div class="main__pill">
-                     <img class="main__img" src="icons/sections/skills_icon.svg" alt="Icono del apartado sobre mis habilidades" />
-                     <p class="main__tit">Habilidades</p>
-                 </div>
-                </div>
-                 <h2 class="main__h2">
-                     Algunas de mis <span class="main__span">habilidades</span> más destacadas.
-                 </h2>
-                 <div class="skills__category">
-                     <h3 class="skills__title">
-                         Desarrollo web
-                     </h3>
-                     <p class="skills__p">
-                         Disfruto con el desarrollo Front-End
-                     </p>
-                 </div>
-                 <div class="skills__cards">
-                    <Developer/>
-                 </div>
-                 <div class="skills__category">
-                     <h3 class="skills__title">
-                         Diseño gráfico
-                     </h3>
-                     <p class="skills__p">
-                         El diseño UI/UX son mis preferidos
-                     </p>
-                 </div>
-                 <div class="skills__cards">
-                     <Designer/>
-                 </div>
-                 <div class="skills__category">
-                     <h3 class="skills__title">
-                         Docente
-                     </h3>
-                     <p class="skills__p">
-                         Estoy especializado en docencia de desarrollo web.
-                     </p>
-                 </div>
-                 <div class="skills__cards">
-                        <Instructor/>
-                 </div>
-             </div>
-         </div>
-         <hr class="main__hr">
-     </div>
- </section>
+<section class="skills" id="skills">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="main__pills">
+          <div class="main__pill">
+            <img
+              class="main__img"
+              src="icons/sections/skills_icon.svg"
+              alt="Icono del apartado sobre mis habilidades"
+            />
+            <p class="main__tit">Habilidades</p>
+          </div>
+        </div>
+        <h2 class="main__h2">
+          Algunas de mis <span class="main__span">habilidades</span> más destacadas.
+        </h2>
+        <div class="skills__category">
+          <h3 class="skills__title">Desarrollo web</h3>
+          <p class="skills__p">Disfruto con el desarrollo Front-End</p>
+        </div>
+        <div class="skills__cards">
+          <Developer />
+        </div>
+        <div class="skills__category">
+          <h3 class="skills__title">Diseño gráfico</h3>
+          <p class="skills__p">El diseño UI/UX son mis preferidos</p>
+        </div>
+        <div class="skills__cards">
+          <Designer />
+        </div>
+        <div class="skills__category">
+          <h3 class="skills__title">Docente</h3>
+          <p class="skills__p">
+            Estoy especializado en docencia de desarrollo web.
+          </p>
+        </div>
+        <div class="skills__cards">
+          <Instructor />
+        </div>
+      </div>
+    </div>
+    <hr class="main__hr" />
+  </div>
+</section>
 
- <style lang="scss">
+<style lang="scss">
+  @use "../styles/global.scss" as *;
 
-@use "../styles/global.scss" as *;
- 
+  //Skills
 
+  .skills__category {
+    margin: 40px 0px;
+    padding-left: 20px;
+    text-align: center;
+  }
 
+  .skills__title {
+    font-family: $font-secondary;
+    font-size: 1.2rem;
+  }
 
-//Skills
+  .skills__p {
+    font-size: 0.8rem;
+    color: $color-hr;
+    border-bottom: 3px solid $color-secondary;
+    max-width: fit-content;
+    margin: 0 auto;
+  }
 
-.skills__category{
-  margin: 40px 0px;
-  padding-left: 20px;
-  text-align: center;
-}
-
-.skills__title{
-  font-family: $font-secondary;
-  font-size: 1.2rem;
-}
-
-.skills__p{
-  font-size: .8rem;
-  color: $color-hr;
-  border-bottom: 3px solid $color-secondary;
-  max-width: fit-content;
-  margin: 0 auto;
-}
-
-.skills__cards{
-  margin: 20px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-
-@media (max-width:425px){
-  .skills__cards{
+  .skills__cards {
+    margin: 20px 0px;
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
   }
-}
 
+  @media (max-width: 425px) {
+    .skills__cards {
+      display: flex;
+      justify-content: center;
+    }
+  }
 </style>

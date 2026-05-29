@@ -1,0 +1,25 @@
+---
+import { getCollection } from "astro:content";
+
+const instructor = (await getCollection("instructor")).map(
+  (entry) => entry.data,
+);
+---
+
+{
+  instructor.map((item) => (
+    <div class="skills__card">
+      <img
+        class="skills__skillicon"
+        src={item.icon}
+        alt={`Icono de ${item.name}`}
+        width="54"
+        height="54"
+        loading="lazy"
+        decoding="async"
+      />
+      <p class="skills__name">{item.name}</p>
+      <div class="skills__line" />
+    </div>
+  ))
+}

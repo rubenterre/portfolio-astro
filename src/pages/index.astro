@@ -4,26 +4,24 @@ import Header from "../components/Header.astro";
 import Home from "../components/Home.astro";
 import Skills from "../components/Skills.astro";
 import Resume from "../components/Resume.astro";
-import Portfolio from "../components/Portfolio.svelte";
+import Portfolio from "../components/Portfolio.astro";
 import Youtube from "../components/Youtube.svelte";
 import Contact from "../components/Contact.astro";
 import Footer from "../components/Footer.astro";
 
 const apiKey = import.meta.env.PUBLIC_API_KEY;
 const channelId = import.meta.env.PUBLIC_CHANNEL_ID;
-
-
 ---
 
 <BaseLayout>
-  <Header/>
+  <Header />
 
-  <Home/>
-  <Skills/>
-  <Resume/>
-  <Portfolio client:visible/>
-  <Youtube client:visible apiKey={apiKey} channelId={channelId}/>
-  <Contact/>
+  <Home />
+  <Skills />
+  <Resume />
+  <Portfolio />
+  <Youtube client:visible apiKey={apiKey} channelId={channelId} />
+  <Contact />
 
-  <Footer/>
+  <Footer />
 </BaseLayout>
